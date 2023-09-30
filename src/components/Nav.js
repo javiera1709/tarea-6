@@ -7,9 +7,9 @@ function Nav() {
       <div className="submenu">
         <a href="#">Nosotros</a>
         <div className="submenu-content">
-          <a href="/integrantes/boreas.html">Boreas</a>
-          <a href="/integrantes/javiera.html">Javiera</a>
-          <a href="/integrantes/emilio.html">Emilio</a>
+          <a href="/">Boreas</a>
+          <a href="/">Javiera</a>
+          <a href="/">Emilio</a>
         </div>
       </div>
     </nav>

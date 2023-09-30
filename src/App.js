@@ -1,29 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-import Navbar from './components/navbar';
-import Boreas from './components/Boreas';
-import Javiera from './components/Javiera';
-import Emilio from './components/Emilio';
+import React from 'react';
+import './App.css'; // Importa los estilos CSS aquí
+
+import Header from './components/Header';
+import Nav from './components/Nav';
+import Hero from './components/Hero';
+import Content from './components/Content';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div>
-      <Navbar /> 
-      <main>
-        <div className="container">
-          <div className="subject">
-            <Boreas />
-          </div>
-
-          <div className="subject">
-            <Javiera />
-          </div>
-
-          <div className="subject">
-            <Emilio />
-          </div>
-        </div>
-      </main>
+    <div className="App">
+      <Header />
+      <Nav />
+      <Hero />
+      <Content />
+      <Footer />
     </div>
   );
 }

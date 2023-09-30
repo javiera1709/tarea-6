@@ -1,10 +1,11 @@
 import React from 'react';
+import FotoBoreas from './img/Foto Boreas.jpeg';
 
 const CBoreas = () => {
   return (
     <div className="subject">
-      <a href="/integrantes/Boreas">
-        <img src="/img/Foto Boreas.jpeg" alt="Foto Boreas" />
+      <a href="/">
+        <img src={FotoBoreas}/>
       </a>
       <h4>Boreas</h4>
       <p className="mail">boreas@alumnos.uai.cl</p>
@@ -13,3 +14,4 @@ const CBoreas = () => {
 }
 
 export default CBoreas;
+
