@@ -4,8 +4,8 @@ import './App.css'; // Importa los estilos CSS aquí
 import Header from './components/Header';
 import Nav from './components/Nav';
 import Hero from './components/Hero';
-import Content from './components/Content';
 import Footer from './components/Footer';
+import Nosotros from './components/Nosotros';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Header />
       <Nav />
       <Hero />
-      <Content />
+      <Nosotros />
       <Footer />
     </div>
   );
